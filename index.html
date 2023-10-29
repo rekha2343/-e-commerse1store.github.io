@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>E-commerce Website</title>
+</head>
+
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="product.html">Product</a>
+        <a href="cart.html">Cart</a>
+        <a href="Contect Me.html">Contect Me</a>
+    </nav>
+
+  <div class="center-content">
+      <header>
+          <h1>Welcome to Our E-commerce Store!</h1>
+      </header>
+  </div>
+
+    <script src="script.js"></script>
+</body>
+
+
+  <body>
+   
+    <h1>Product Page</h1>
+
+    
+      <main>
+      <section id="men">
+          <h2>Men's Collection</h2>
+          <div class="product">
+              <img src="https://purepng.com/public/uploads/large/purepng.com-men-t-shirtclothingmen-t-shirtfashion-dress-shirt-cloth-tshirt-631522326839zoswy.png" alt="Men's Product 1" alt="Men's Product 1" class="product-image">
+              <h3>Men's T Shirt </h3>
+              <p>"Elevate your style with our classic men's shirt, tailored for both comfort and sophistication, perfect for any occasion.".</p>
+              <p>Price: ₹ 250</p>
+              <button onclick="addToCart('Men\'s Product 1', 25.00)">Add to Cart</button>
+          </div>
+
+          <div class="product">
+              <img src="https://i5.walmartimages.com/asr/5650193d-95d3-42f8-abc0-3f7ba9dfb21e.fc87c1afcc96f6b807404771c2f9db91.jpeg" alt="Men's Product 2" class="product-image">
+              <h3>Men's Shirt 2</h3>
+              <p>Pudcoco Men's Summer Short Sleeve T-Shirts Stripe Button Down Shirt V Neck</p>
+              <p>Price: ₹ 250</p>
+              <button onclick="addToCart('Men\'s Product 2', 30.00)">Add to Cart</button>
+          </div>
+
+          <!-- Add more Men's products as needed -->
+      </section>
+      </main>
+    
+      <section id="women">
+              <h2>Women's Collection</h2>
+              <div class="product">
+                  <img src="https://i5.walmartimages.com/asr/35a7da66-664b-4777-959e-702780861c8e_1.b261b386307159bcc85b28935345424f.jpeg" alt="Women's Product 1" class="product-image">
+                  <h3>Women's Dress</h3>
+                  <p>Vintage Women Dress retro Swing Pinup.</p>
+                  <p>Price: ₹ 250</p>
+                  <button onclick="addToCart('Women\'s Product 1', 28.00)">Add to Cart</button>
+              </div>
+
+              <div class="product">
+                  <img src="https://3.bp.blogspot.com/-PMBt1l8xIAk/TmqgHt-E6SI/AAAAAAAAOkQ/nAyFjY97s9g/s1600/womens+clothes+2.jpg" alt="Women's Product 2" class="product-image">
+                  <h3>Women's Dress</h3>
+                  <p>Experience the  blending rich fabrics and delicate embellishments, designed to celebrate femininity and charm at every moment..</p>
+                  <p>Price: ₹ 250</p>
+                  <button onclick="addToCart('Women\'s Product 2', 35.00)">Add to Cart</button>
+              </div>
+
+              <!-- Add more Women's products as needed -->
+          </section>
+
+         
+    
+  </body>
+
+  <body>
+      
+
+      <h1>Shopping Cart</h1>
+
+      <ul id="cart-items"></ul>
+      <p>Total: $<span id="cart-total">0.00</span></p>
+
+      <script src="script.js"></script>
+  </body>
+  <h1>Contect Me</h1>
+  <main>
+      <section class="contact-form">
+          <h2>Contect Me</h2>
+          <form id="contact-form">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required>
+
+              <label for="phone">Phone Number:</label>
+              <input type="tel" id="phone" name="phone" required>
+
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required>
+
+              <label for="address">Address:</label>
+              <textarea id="address" name="address" required></textarea>
+
+              <input type="submit" value="Submit">
+          </form>
+      </section>
+  </main>
+
+  <footer>
+      <p>&copy; 2023 Your Company Name. All rights reserved.</p>
+  </footer>
+
+  
+
+</html>
